@@ -1,0 +1,23 @@
+.nav-bar {
+    background-color: #333;
+    position: fixed;
+    top: -50px;
+    width: 100%;
+    display: block;
+    transition: top 0.3s;
+}
+
+.navigationLink {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navigationLink:hover {
+    background-color: #ddd;
+    color: black;
+}
