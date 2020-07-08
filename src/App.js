@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import '../src/styles/App.css';
 import Navbar from '../src/components/Navbar.js';
 import Section from '../src/components/Section.js';
+
 import dummyText from './SectionOneText.js';
 import textTwo from './TextTwo.js';
 
