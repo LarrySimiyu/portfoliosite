@@ -4,6 +4,12 @@ import '../src/styles/App.css';
 import Navbar from '../src/components/Navbar.js';
 import Section from '../src/components/Section.js';
 
+import AboutSection from '../src/components/AboutSection.js';
+import ProjectsSection from '../src/components/ProjectsSection.js';
+import ContactSection from '../src/components/ContactSection';
+
+ 
+
 import dummyText from './SectionOneText.js';
 import textTwo from './TextTwo.js';
 
@@ -11,6 +17,13 @@ function App() {
   return (
     <div className="App">
       <Navbar />
+
+      <AboutSection
+        title="Hello this is my page"
+      />
+      <ProjectsSection/>
+      <ContactSection/>
+
       <Section
           title="Section 1"
           // subtitle={dummyText}

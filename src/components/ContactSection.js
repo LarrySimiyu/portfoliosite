@@ -6,7 +6,7 @@ export default function ContactSection({ title, subtitle, id }) {
 
             {/* social media and email links go here.
             user can click on a button to open their email */} 
-            
+
         </div>
     )
 
