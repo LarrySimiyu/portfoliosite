@@ -69,6 +69,16 @@
   padding: 40px;
 }
 
+.card {
+  border: 1px solid black;
+  width: 45%;
+}
+
+.projectImage {
+  width: 100%;
+}
+
+
 .contact-content {
   max-width: 800px;
   margin: 0 auto;
