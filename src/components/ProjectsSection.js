@@ -10,7 +10,9 @@ export default function ProjectsSettings({ title, subtitle, id }) {
   return (
     <div className={"sectionOne"}>
       <div className="projects-content" id={id}>
-        <h1>{title}</h1>
+        <div className="titleContainer">
+          <h1 className="sectionTitle">{title}</h1>
+        </div>
         <p>{subtitle}</p>
         <div className="projectCards">
           <div className="card">
