@@ -1,22 +1,19 @@
-import React from 'react';
-import logo from './logo.svg';
-import '../src/styles/App.css';
-import Navbar from '../src/components/Navbar.js';
-import Section from '../src/components/Section.js';
+import React from "react";
+import logo from "./logo.svg";
+import "../src/styles/App.css";
+import Navbar from "../src/components/Navbar.js";
+import Section from "../src/components/Section.js";
 
-import AboutSection from '../src/components/AboutSection.js';
-import ProjectsSection from '../src/components/ProjectsSection.js';
-import ContactSection from '../src/components/ContactSection';
+import AboutSection from "../src/components/AboutSection.js";
+import ProjectsSection from "../src/components/ProjectsSection.js";
+import ContactSection from "../src/components/ContactSection";
 
- 
+import dummyText from "./SectionOneText.js";
+import textTwo from "./TextTwo.js";
 
-import dummyText from './SectionOneText.js';
-import textTwo from './TextTwo.js';
-
-
-import aboutText from './AboutText.js';
-import projectsText from './ProjectText.js';
-import contactText from './ContactText.js';
+import aboutText from "./AboutText.js";
+import projectsText from "./ProjectText.js";
+import contactText from "./ContactText.js";
 
 function App() {
   return (
@@ -24,7 +21,7 @@ function App() {
       <Navbar />
 
       <AboutSection
-        title="Hello this is my page"
+        title="Hi, I'm Larry"
         id="about-section"
         subtitle={aboutText}
       />
@@ -38,7 +35,7 @@ function App() {
         id="contact-section"
         subtitle={contactText}
       />
-{/* 
+      {/* 
       <Section
           title="Section 1"
           // subtitle={dummyText}
@@ -59,7 +56,6 @@ function App() {
           dark={true}
           id="section3"
         /> */}
-
     </div>
   );
 }

@@ -19,6 +19,7 @@ export default class Navbar extends Component {
             onClick={this.scrollToTop}
           />
           <ul className="nav-items">
+
             <li className="nav-item">
               <Link
                 activeClass="active"
@@ -31,6 +32,7 @@ export default class Navbar extends Component {
                 About
               </Link>
             </li>
+            
             <li className="nav-item">
               <Link
 
