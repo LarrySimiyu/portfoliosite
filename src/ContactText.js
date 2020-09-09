@@ -1,3 +1,3 @@
-const contactText = `You can contact me through email or find me on twitter `;
+const contactText = `If you are interested in hiring me or collaboration you can contact me directly through Email or Twitter`;
 
 export default contactText;

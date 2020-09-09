@@ -10,11 +10,9 @@ import ContactSection from "../src/components/ContactSection";
 
 import dummyText from "./SectionOneText.js";
 
-
 import oudi from "./AboutOudi.js";
-import rentMeInfo from "./RentMeText.js"
-import dataVizualizationText from "./DataVisualization.js"
-
+import rentMeInfo from "./RentMeText.js";
+import dataVizualizationText from "./DataVisualization.js";
 
 import aboutText from "./AboutText.js";
 import projectsText from "./ProjectText.js";
@@ -35,36 +33,14 @@ function App() {
         id="projects-section"
         subtitle={projectsText}
         oudiProjectText={oudi}
-        adventureProjectText = {dataVizualizationText}
+        adventureProjectText={dataVizualizationText}
         rentMeProjectText={rentMeInfo}
-
       />
       <ContactSection
         title="Contact Section"
         id="contact-section"
         subtitle={contactText}
       />
-      {/* 
-      <Section
-          title="Section 1"
-          // subtitle={dummyText}
-          dark={true}
-          id="section1"
-        />
-
-        <Section
-          title="Section 2"
-          subtitle={textTwo}
-          dark={false}
-          id="section2"
-        />
-
-        <Section
-          title="Section 3"
-          subtitle={dummyText}
-          dark={true}
-          id="section3"
-        /> */}
     </div>
   );
 }
