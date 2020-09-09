@@ -1,9 +1,10 @@
 import React from "react";
 
-import ProjectOne from "../images/IMG_1415.JPG";
-import ProjectTwo from "../images/IMG_1415.JPG";
-import ProjectThree from "../images/IMG_1415.JPG";
-import ProjectFour from "../images/IMG_1415.JPG";
+import ProjectOne from "../images/Simulator Screen Shot - iPhone 11 Pro Max - 2020-08-16 at 21.41.10.png";
+import ProjectTwo from "../images/Screen Shot 2020-09-09 at 3.13.11 PM.png";
+import ProjectThree from "../images/Screen Shot 2020-09-09 at 3.21.50 PM.png";
+
+import GithubLogo from "../images/GitHub-Mark-Light-120px-plus.png";
 
 export default function ProjectsSettings({
   title,
@@ -20,6 +21,7 @@ export default function ProjectsSettings({
           <h1 className="sectionTitle">{title}</h1>
         </div>
         <p>{subtitle}</p>
+
         <div className="projectCards">
           <div className="card">
             <img src={ProjectOne} alt="Project" className="projectImage" />
@@ -28,7 +30,11 @@ export default function ProjectsSettings({
                 <b>Project Name Here</b>
               </h4>
               <p>{oudiProjectText}</p>
-              <a href="https://testflight.apple.com/join/sk6UL4le">GitHub</a>
+
+              <a href="https://testflight.apple.com/join/sk6UL4le">
+              <img src={GithubLogo} alt="Github Logo" />
+
+              </a>
             </div>
           </div>
 
@@ -40,7 +46,9 @@ export default function ProjectsSettings({
               </h4>
               <p>{adventureProjectText}</p>
 
-              <a href="https://github.com/Larrys-Leisurely-Adventure-Game">Github</a>
+              <a href="https://github.com/Larrys-Leisurely-Adventure-Game">
+                <img src={GithubLogo} alt="Github Logo" />
+              </a>
             </div>
           </div>
 
@@ -51,11 +59,12 @@ export default function ProjectsSettings({
                 <b>Project Name Here</b>
               </h4>
               <p>{rentMeProjectText}</p>
-              <a href="https://github.com/labs13-property-mgr">GitHub</a>
+              <a href="https://github.com/labs13-property-mgr">
+                {" "}
+                <img src={GithubLogo} alt="Github Logo" />
+              </a>
             </div>
           </div>
-
-
         </div>
       </div>
     </div>
