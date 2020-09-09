@@ -9,7 +9,12 @@ import ProjectsSection from "../src/components/ProjectsSection.js";
 import ContactSection from "../src/components/ContactSection";
 
 import dummyText from "./SectionOneText.js";
-import textTwo from "./TextTwo.js";
+
+
+import oudi from "./AboutOudi.js";
+import rentMeInfo from "./RentMeText.js"
+import dataVizualizationText from "./DataVisualization.js"
+
 
 import aboutText from "./AboutText.js";
 import projectsText from "./ProjectText.js";
@@ -29,6 +34,10 @@ function App() {
         title="Projects Section"
         id="projects-section"
         subtitle={projectsText}
+        oudiProjectText={oudi}
+        adventureProjectText = {dataVizualizationText}
+        rentMeProjectText={rentMeInfo}
+
       />
       <ContactSection
         title="Contact Section"
