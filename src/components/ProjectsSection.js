@@ -1,6 +1,6 @@
 import React from "react";
 
-import ProjectOne from "../images/Simulator Screen Shot - iPhone 11 Pro Max - 2020-08-16 at 21.41.10.png";
+import ProjectOne from "../images/Screen Shot 2020-09-09 at 3.32.18 PM.png";
 import ProjectTwo from "../images/Screen Shot 2020-09-09 at 3.13.11 PM.png";
 import ProjectThree from "../images/Screen Shot 2020-09-09 at 3.21.50 PM.png";
 
@@ -32,7 +32,7 @@ export default function ProjectsSettings({
               <p>{oudiProjectText}</p>
 
               <a href="https://testflight.apple.com/join/sk6UL4le">
-              <img src={GithubLogo} alt="Github Logo" />
+              <img src={GithubLogo} alt="Github Logo" className="githubLogo" />
 
               </a>
             </div>
@@ -47,10 +47,12 @@ export default function ProjectsSettings({
               <p>{adventureProjectText}</p>
 
               <a href="https://github.com/Larrys-Leisurely-Adventure-Game">
-                <img src={GithubLogo} alt="Github Logo" />
+                <img src={GithubLogo} alt="Github Logo" className="githubLogo" />
               </a>
             </div>
           </div>
+          
+
 
           <div className="card">
             <img src={ProjectThree} alt="Project" className="projectImage" />
@@ -60,11 +62,12 @@ export default function ProjectsSettings({
               </h4>
               <p>{rentMeProjectText}</p>
               <a href="https://github.com/labs13-property-mgr">
-                {" "}
-                <img src={GithubLogo} alt="Github Logo" />
+                <img src={GithubLogo} alt="Github Logo"  className="githubLogo"/>
               </a>
             </div>
           </div>
+
+
         </div>
       </div>
     </div>

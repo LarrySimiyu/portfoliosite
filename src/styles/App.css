@@ -16,7 +16,6 @@
   box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.15);
   font-family: "Karla", sans-serif;
   font-weight: bold;
-  border: 2px solid white;
 
 }
 
@@ -87,7 +86,6 @@
 }
 
 .card {
-  border: 1px solid white;
   width: 45%;
   background-color: #2f2fa2;
 
@@ -100,6 +98,7 @@
 
 .projectImage {
   width: 100%;
+  border: 3px solid white;
 }
 
 .projectCards {
@@ -121,7 +120,11 @@
   animation: float 6s ease-in-out infinite;
   overflow: hidden;
   padding-left: 10px;
+  padding-top: 10px;
   padding-right: 10px;
+  padding-bottom: 10px;
+
+
 
 }
 
@@ -152,4 +155,26 @@
   max-width: 800px;
   margin: 0 auto;
   padding: 40px;
+}
+
+
+.githubLogo {
+  height: 30px;
+
+}
+
+.contactSection {
+  color: white;
+  background-color: #2f2fa2;
+  font-family: "Karla", sans-serif;
+  font-weight: bold;
+  height:300px;
+}
+
+.aboutSection {
+  color: white;
+  background-color: #2f2fa2;
+  font-family: "Karla", sans-serif;
+  font-weight: bold;
+  height:300px;
 }
