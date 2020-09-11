@@ -18,9 +18,9 @@ export default function ProjectsSettings({
     <div className={"sectionOne"}>
       <div className="projects-content" id={id}>
         <div className="titleContainer">
-          <h1 className="sectionTitle">{title}</h1>
+          <h1 className="projectTitle">{title}</h1>
         </div>
-        <p>{subtitle}</p>
+        <p className="projectParagraph">{subtitle}</p>
 
         <div className="projectCards">
           <div className="card">

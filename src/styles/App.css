@@ -168,7 +168,7 @@
   background-color: #2f2fa2;
   font-family: "Karla", sans-serif;
   font-weight: bold;
-  height:300px;
+  height:500px;
 }
 
 .aboutSection {
@@ -176,5 +176,49 @@
   background-color: #2f2fa2;
   font-family: "Karla", sans-serif;
   font-weight: bold;
-  height:300px;
+  height:1000px;
 }
+
+.aboutHeader {
+  font-size: 100px;
+}
+
+.aboutParagraph {
+  font-size: 35px;
+}
+
+.projectTitle {
+  font-size: 75px
+}
+
+.projectParagraph {
+  font-size: 35px;
+}
+
+.contactTitle {
+  font-size: 75px;
+
+}
+
+.contactParagraph {
+  font-size: 35px;
+}
+
+.profileContainer {
+  width: 30%;
+  height: 40%;
+}
+
+.profileContainer img {
+  width: 100%;
+  border-radius: 10px;
+  border: 3px solid white;
+
+
+ }
+
+ .headerContent {
+   display: flex;
+   flex-direction: row;
+   align-items: flex-end;
+ }

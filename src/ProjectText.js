@@ -1,3 +1,3 @@
-const projectsText = `Here are a couple of projects that I have worked on.`;
+const projectsText = `Here are a few projects that I recently worked on.`;
 
 export default projectsText;

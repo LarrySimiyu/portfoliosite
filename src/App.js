@@ -29,7 +29,7 @@ function App() {
         subtitle={aboutText}
       />
       <ProjectsSection
-        title="Projects Section"
+        title="My Projects"
         id="projects-section"
         subtitle={projectsText}
         oudiProjectText={oudi}
