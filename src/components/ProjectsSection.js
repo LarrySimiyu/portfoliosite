@@ -26,29 +26,40 @@ export default function ProjectsSettings({
           <div className="card">
             <img src={ProjectOne} alt="Project" className="projectImage" />
             <div className="container">
-              <h4>
-                <b>Project Name Here</b>
-              </h4>
-              <p>{oudiProjectText}</p>
-
-              <a href="https://testflight.apple.com/join/sk6UL4le">
+              <div className="projectCardHeader">
+              <h4 className = "projectCardTitle">
+                <b>Oudi.Mobi iOS Beta</b>
+                </h4>
+                <a href="https://testflight.apple.com/join/sk6UL4le">
               <img src={GithubLogo} alt="Github Logo" className="githubLogo" />
 
               </a>
+             
+
+              </div>
+              
+              <p>{oudiProjectText}</p>
+
+            
             </div>
           </div>
 
           <div className="card">
             <img src={ProjectTwo} alt="Project" className="projectImage" />
             <div className="container">
-              <h4>
-                <b>Project Name Here</b>
-              </h4>
-              <p>{adventureProjectText}</p>
+            <div className="projectCardHeader">
 
-              <a href="https://github.com/Larrys-Leisurely-Adventure-Game">
+              <h4>
+                <b>Data Vizualization Game</b>
+
+                </h4>
+
+                <a href="https://github.com/Larrys-Leisurely-Adventure-Game">
                 <img src={GithubLogo} alt="Github Logo" className="githubLogo" />
               </a>
+
+              </div>
+              <p>{adventureProjectText}</p>
             </div>
           </div>
           
@@ -57,13 +68,20 @@ export default function ProjectsSettings({
           <div className="card">
             <img src={ProjectThree} alt="Project" className="projectImage" />
             <div className="container">
+            <div className="projectCardHeader">
+
               <h4>
-                <b>Project Name Here</b>
-              </h4>
-              <p>{rentMeProjectText}</p>
-              <a href="https://github.com/labs13-property-mgr">
+                <b>Rent-Me</b>
+
+                </h4>
+
+                <a href="https://github.com/labs13-property-mgr">
                 <img src={GithubLogo} alt="Github Logo"  className="githubLogo"/>
               </a>
+
+              </div>
+              <p>{rentMeProjectText}</p>
+           
             </div>
           </div>
 

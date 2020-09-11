@@ -37,7 +37,7 @@ function App() {
         rentMeProjectText={rentMeInfo}
       />
       <ContactSection
-        title="Contact Section"
+        title="Contact"
         id="contact-section"
         subtitle={contactText}
       />
