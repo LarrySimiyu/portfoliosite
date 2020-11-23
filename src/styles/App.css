@@ -82,6 +82,7 @@
   padding: 40px;
   color: black;
   background-color: white;
+  padding-top: 0px;
 }
 
 .aboutSection {
@@ -89,11 +90,18 @@
   background-color: white;
   font-family: "Karla", sans-serif;
   font-weight: bold;
-  height:1000px;
+  height:100%;
+
 }
 
 .aboutHeader {
-  font-size: 100px;
+  font-size: 250px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.aboutHeader span {
+  color: red;
 }
 
 .aboutParagraph {
@@ -214,15 +222,20 @@
 }
 
 .profileContainer {
-  width: 30%;
-  height: 40%;
+  width: 600px;
+  height: 500px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
 }
 
-.profileContainer img {
-  width: 100%;
-  border-radius: 10px;
-  border: 3px solid white;
 
+
+.profileContainer img {
+  width: 190px;
+  height: 190px;
+  border-radius: 50%;
+  border: 3px solid white;
 
  }
 
