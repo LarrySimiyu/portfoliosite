@@ -15,9 +15,9 @@ export default function ProjectsSettings({
   rentMeProjectText,
 }) {
   return (
-    <div className={"sectionOne"}>
+    <div className={"projectsSection"}>
       <div className="projects-content" id={id}>
-        <div className="titleContainer">
+        <div className="projectsHeaderContainer">
           <h1 className="projectTitle">{title}</h1>
         </div>
         <p className="projectParagraph">{subtitle}</p>
