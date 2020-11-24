@@ -345,5 +345,16 @@
     flex-direction: column;
     margin-top: 10px;
   }
+  
+  .nav {
+    width: fixed;
+  }
 
+}
+
+@media only screen and (max-width: 750px){
+  
+  .nav {
+    width: fixed;
+  }
 }
