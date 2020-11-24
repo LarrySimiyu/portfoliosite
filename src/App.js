@@ -17,6 +17,7 @@ import dataVizualizationText from "./DataVisualization.js";
 import aboutText from "./AboutText.js";
 import projectsText from "./ProjectText.js";
 import contactText from "./ContactText.js";
+import handTrackText from "./HandTrackText.js"
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
         title="Projects"
         id="projects-section"
         subtitle={projectsText}
+        handTrackingText = {handTrackText}
         oudiProjectText={oudi}
         adventureProjectText={dataVizualizationText}
         rentMeProjectText={rentMeInfo}

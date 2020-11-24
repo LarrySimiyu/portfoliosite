@@ -16,6 +16,7 @@ export default function ProjectsSettings({
   oudiProjectText,
   adventureProjectText,
   rentMeProjectText,
+  handTrackingText,
 }) {
   return (
     <div className={"projectsSection"}>
@@ -42,7 +43,7 @@ export default function ProjectsSettings({
                 </a>
               </div>
 
-              <p>{oudiProjectText}</p>
+              <p>{handTrackingText}</p>
             </div>
           </div>
 
@@ -54,9 +55,6 @@ export default function ProjectsSettings({
                 <h4 className="projectCardTitle">
                   <b>Oudi.Mobi iOS Beta</b>
                 </h4>
-                {/* <a href="https://testflight.apple.com/join/sk6UL4le">
-                  <img src={Arrow} alt="Github Logo" className="githubLogo" />
-                </a> */}
               </div>
 
               <p>{oudiProjectText}</p>
