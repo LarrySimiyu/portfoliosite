@@ -363,6 +363,7 @@
 
   .redContact {
     color: red;
+    font-weight: bold;
   }
 
 }
