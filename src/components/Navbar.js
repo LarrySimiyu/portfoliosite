@@ -47,7 +47,7 @@ export default class Navbar extends Component {
                 Projects
               </Link>
             </li>
-            <li className="nav-item">
+            <li className="nav-item " >
               <Link
                 activeClass="active"
                 to="contact-section"
@@ -55,6 +55,7 @@ export default class Navbar extends Component {
                 smooth={true}
                 offset={-70}
                 duration={500}
+                className="redContact"
               >
                 Contact
               </Link>

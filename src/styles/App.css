@@ -347,11 +347,16 @@
   }
   
   .nav {
-    width: 140%;
+    width: 100%;
   }
 
   .App {
     width: 100%;
+  }
+
+
+  .redContact {
+    color: red;
   }
 
 }
