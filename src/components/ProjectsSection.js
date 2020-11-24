@@ -26,7 +26,7 @@ export default function ProjectsSettings({
         </div>
 
         <p className="projectParagraph">
-          Here are a few projects I've worked on in the past.
+          Here are a few projects I've worked on.
         </p>
 
         <div className="projectCards">
@@ -38,7 +38,7 @@ export default function ProjectsSettings({
                 <h4 className="projectCardTitle">
                   <b>Machine Learning Hand Tracker</b>
                 </h4>
-                <a href="https://testflight.apple.com/join/sk6UL4le">
+                <a href="https://github.com/LarrySimiyu/handTracking">
                   <img src={Arrow} alt="Github Logo" className="githubLogo" />
                 </a>
               </div>
