@@ -110,6 +110,15 @@
 
 }
 
+.aboutParagraph span {
+  color: red;
+  font-weight: bold;
+}
+
+.videoLink {
+  text-decoration: underline;
+}
+
 .projects-content {
   max-width: 1300px;
   margin: 0 auto;

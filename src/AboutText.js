@@ -1,3 +1,8 @@
-const aboutText = `Hi, my name is Larry Simiyu. I am a fullstack and mobile developer. I'm motivated by interesting challenges that can help me grow as a developer. Aside from coding I'm also a content creator. I love finding new ways to motivate new and experienced programmers to code.`
+
+
+const aboutText = `I've worked as a Full Stack and iOS Developer. My days are spent either making
+videos about tech or coding. I love finding new ways to motivate others to code trough the content I create.
+I look for a challenge that scares me at first, that type of challenge have helped me grow faster and learn more than
+I could ever expect to in such a short time.`
 
 export default aboutText;
