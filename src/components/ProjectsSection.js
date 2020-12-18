@@ -47,6 +47,22 @@ export default function ProjectsSettings({
             </div>
           </div>
 
+          <div className="card">
+            <img src={ProjectThree} alt="Project" className="projectImage" />
+            <div className="container">
+              <div className="projectCardHeader">
+                <h4>
+                  <b>Rent-Me</b>
+                </h4>
+
+                <a href="https://github.com/labs13-property-mgr">
+                  <img src={Arrow} alt="Github Logo" className="githubLogo" />
+                </a>
+              </div>
+              <p>{rentMeProjectText}</p>
+            </div>
+          </div>
+
 
           <div className="card">
             <img src={ProjectOne} alt="Project" className="projectImage" />
@@ -77,21 +93,9 @@ export default function ProjectsSettings({
             </div>
           </div>
 
-          <div className="card">
-            <img src={ProjectThree} alt="Project" className="projectImage" />
-            <div className="container">
-              <div className="projectCardHeader">
-                <h4>
-                  <b>Rent-Me</b>
-                </h4>
 
-                <a href="https://github.com/labs13-property-mgr">
-                  <img src={Arrow} alt="Github Logo" className="githubLogo" />
-                </a>
-              </div>
-              <p>{rentMeProjectText}</p>
-            </div>
-          </div>
+
+
         </div>
       </div>
     </div>
