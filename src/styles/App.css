@@ -383,3 +383,8 @@
     width: fixed;
   }
 }
+
+.directLink {
+  color: red;
+  text-decoration: none;
+}
