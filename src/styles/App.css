@@ -387,4 +387,6 @@
 .directLink {
   color: red;
   text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
 }

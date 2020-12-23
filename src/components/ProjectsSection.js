@@ -41,7 +41,7 @@ export default function ProjectsSettings({
                   {/* <img src={Arrow} alt="Github Logo" className="githubLogo" /> */}
                   <h6>GitHub</h6>
                 </a>
-                <a href="https://www.loom.com/share/7c6e8373180d4e80a543fe16f0dbbd42">
+                <a href="https://www.loom.com/share/7c6e8373180d4e80a543fe16f0dbbd42" className="directLink">
                   <h6>Video</h6>
                 </a>
               </div>
