@@ -8,7 +8,6 @@ import AboutSection from "../src/components/AboutSection.js";
 import ProjectsSection from "../src/components/ProjectsSection.js";
 import ContactSection from "../src/components/ContactSection";
 
-import dummyText from "./SectionOneText.js";
 
 import oudi from "./AboutOudi.js";
 import rentMeInfo from "./RentMeText.js";

@@ -13,9 +13,9 @@ export default function AboutSection({ title, subtitle, id }) {
         <img src={Profile} alt="Profile" className="profilePhoto"/>
         </div> */}
         </div>
-        <p className="aboutParagraph">I've worked as a <span>Full Stack</span> and <span>iOS Developer</span>. My days are spent either making <a href= "https://www.youtube.com/channel/UClkieE3BBB4xXoMvBj7_TRw"><span className="videoLink">videos</span></a> about tech or coding. I love finding new ways to motivate others to code through the content I create.
-I look for a challenge that scares me at first, that type of challenge have helped me grow faster and learn more than
-I could ever expect to in such a short time.</p>
+        <p className="aboutParagraph">I've worked as a <span>Full Stack Web</span> and <span>iOS Developer</span>. My days are spent either making <a href= "https://www.youtube.com/channel/UClkieE3BBB4xXoMvBj7_TRw"><span className="videoLink">videos</span></a> about tech or coding.
+        I love finding new ways to motivate others to code through the content I create.
+        I'm constantly looking for challenges that both scare me and excite me.</p>
       </div>
     </div>
   );
