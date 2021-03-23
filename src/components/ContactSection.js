@@ -9,7 +9,7 @@ export default function ContactSection({ title, subtitle, id }) {
         {/* <p className="contactParagraph">{subtitle}</p> */}
         <div className="endContainer">
 
-        <p className="contactParagraph"> I'm always looking for something challenging to work on.<br></br>With that being said if you are interested in collaboration <span>or</span><br></br> hiring me feel free to reach me through <span>Social Media</span> or <span>Email.</span></p>
+        <p className="contactParagraph"> I'm always looking for something challenging to work on.<br></br>With that being said if you are interested in collaboration <span>or</span><br></br> hiring me feel free to reach me through my <span>Social Media</span> or <span>Email.</span></p>
 
         </div>
         <div className="contactLinks">

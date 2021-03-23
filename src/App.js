@@ -9,14 +9,14 @@ import ProjectsSection from "../src/components/ProjectsSection.js";
 import ContactSection from "../src/components/ContactSection";
 
 
-import oudi from "./AboutOudi.js";
-import rentMeInfo from "./RentMeText.js";
-import dataVizualizationText from "./DataVisualization.js";
+import oudi from "./textExports/AboutOudi.js";
+import rentMeInfo from "./textExports/RentMeText.js";
+import dataVizualizationText from "./textExports/DataVisualization.js";
 
-import aboutText from "./AboutText.js";
-import projectsText from "./ProjectText.js";
-import contactText from "./ContactText.js";
-import handTrackText from "./HandTrackText.js"
+import aboutText from "./textExports/AboutText.js";
+import projectsText from "./textExports/ProjectText.js";
+import contactText from "./textExports/ContactText.js";
+import handTrackText from "./textExports/HandTrackText.js"
 
 function App() {
   return (
