@@ -2,8 +2,6 @@
   --off-white: #fafafa;
 }
 
-
-
 .nav {
   /* background-color: var(--off-white); */
   background-color: white;
@@ -16,7 +14,6 @@
   font-family: "Karla", sans-serif;
   /* font-family: "Baloo Tammudu 2"; */
   /* font-weight: bold; */
-
 }
 
 .nav-logo {
@@ -36,19 +33,16 @@
   justify-content: space-between;
   align-items: center;
   height: 100%;
-  
 }
-
 
 .nav-item {
   display: inline;
   margin-left: 2rem;
   color: black;
-
 }
 
 .nav-items {
-  color: red
+  color: red;
 }
 
 .nav-item:hover {
@@ -63,7 +57,7 @@
   background-color: #2f2fa2;
   font-family: "Karla", sans-serif;
   font-weight: bold;
-  height:1000px;
+  height: 1000px;
 }
 
 .section-dark {
@@ -91,12 +85,11 @@
   background-color: white;
   font-family: "Karla", sans-serif;
   /* font-weight: bold; */
-  height:100%;
-
+  height: 100%;
 }
 
 .aboutHeader {
-  font-size: 250px;
+  font-size: 120px;
   margin-top: 5px;
   margin-bottom: 5px;
 }
@@ -108,7 +101,6 @@
 .aboutParagraph {
   font-size: 35px;
   margin-bottom: 100px;
-
 }
 
 .aboutParagraph span {
@@ -141,7 +133,6 @@
   padding-top: 10px;
   padding-right: 10px;
   padding-bottom: 10px;
-
 }
 
 .projectsSection {
@@ -166,10 +157,7 @@
   margin-top: 5%;
   margin-bottom: 10%;
   width: 100%;
- 
-
 }
-
 
 @keyframes float {
   0% {
@@ -186,8 +174,6 @@
   }
 }
 
-
-
 .projectsHeaderContainer {
   display: flex;
   justify-content: center;
@@ -199,10 +185,8 @@
   padding: 40px;
 }
 
-
 .githubLogo {
   height: 30px;
-
 }
 
 .contactSection {
@@ -211,44 +195,37 @@
   font-family: "Karla", sans-serif;
   /* font-weight: bold; */
   height: 100px;
-
 }
 
-.projectTitle{
+.projectTitle {
   font-size: 75px;
-  
-  /* everything under this makes the line */
-  width: 100%; 
-  text-align: center; 
-  border-bottom: 3px solid #000; 
-  line-height: 0.1em;
-  margin: 10px 0 20px; 
 
+  /* everything under this makes the line */
+  width: 100%;
+  text-align: center;
+  border-bottom: 3px solid #000;
+  line-height: 0.1em;
+  margin: 10px 0 20px;
 }
 
 .projectTitle:hover {
   font-size: 80px;
   color: red;
-
 }
-
-
 
 .contactTitle {
   font-size: 75px;
 
-  width: 100%; 
-  text-align: center; 
-  border-bottom: 3px solid #000; 
+  width: 100%;
+  text-align: center;
+  border-bottom: 3px solid #000;
   line-height: 0.1em;
-  margin: 10px 0 20px; 
-
+  margin: 10px 0 20px;
 }
 
 .contactTitle:hover {
   font-size: 80px;
   color: red;
-
 }
 
 .contactParagraph {
@@ -265,64 +242,55 @@
   justify-content: center;
 }
 
-
-
 .profileContainer img {
   width: 190px;
   height: 190px;
   border-radius: 50%;
   border: 3px solid white;
+}
 
- }
-
- .headerContent {
-   display: flex;
-   flex-direction: row;
-   align-items: flex-end;
- }
+.headerContent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
 
 .projectCardHeader {
- display: flex;
-   justify-content: space-evenly;
-   border-bottom: 2px solid white;
-   align-items: center;
- }
+  display: flex;
+  justify-content: space-evenly;
+  border-bottom: 2px solid white;
+  align-items: center;
+}
 
-
- .projectCardTitle {
+.projectCardTitle {
   margin-right: 1px;
+}
 
- }
+.socialLink:hover {
+  color: red;
+  text-decoration: underline;
+  font-weight: bold;
+}
 
- .socialLink:hover {
-   color:red;
-   text-decoration: underline;
-   font-weight: bold;
-
- }
-
- .socialLink {
-  color:black;
+.socialLink {
+  color: black;
   text-decoration: none;
- }
+}
 
- .contactLinks {
-   margin-top: 250px;
-   font-size: 25px;
-   display: flex;
-   justify-content: space-evenly;
+.contactLinks {
+  margin-top: 250px;
+  font-size: 25px;
+  display: flex;
+  justify-content: space-evenly;
+}
 
- }
-
- .contactParagraph span {
-   color: red;
-   /* width: 75%; */
-   
-
- }
-@media only screen and (max-width: 600px){
-  .aboutHeader{
-    font-size: 120px;
+.contactParagraph span {
+  color: red;
+}
+@media only screen and (max-width: 600px) {
+  .aboutHeader {
+    font-size: 80px;
+    height: 360px;
   }
 
   .projectCards {
@@ -336,17 +304,17 @@
 
   .card {
     width: 100%;
-  background-color: white;
+    background-color: white;
 
-  margin-top: 5%;
-  box-shadow: 0 5px 15px 0px rgba(236, 17, 17, 0.6);
-  transform: translatey(0px);
-  animation: float 6s ease-in-out infinite;
-  overflow: hidden;
-  padding-left: 10px;
-  padding-top: 10px;
-  padding-right: 10px;
-  padding-bottom: 10px;
+    margin-top: 5%;
+    box-shadow: 0 5px 15px 0px rgba(236, 17, 17, 0.6);
+    transform: translatey(0px);
+    animation: float 6s ease-in-out infinite;
+    overflow: hidden;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
   }
 
   .contactParagraph {
@@ -357,14 +325,12 @@
     flex-direction: column;
     margin-top: 10px;
   }
-  
+
   .nav {
     width: 100%;
-  
   }
 
-
-  .nav-logo{
+  .nav-logo {
     display: none;
   }
 
@@ -372,16 +338,13 @@
     width: 100%;
   }
 
-
   .redContact {
     color: red;
     font-weight: bold;
   }
-
 }
 
-@media only screen and (max-width: 750px){
-  
+@media only screen and (max-width: 750px) {
   .nav {
     width: fixed;
   }

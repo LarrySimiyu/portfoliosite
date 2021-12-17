@@ -6,9 +6,6 @@ import ProjectThree from "../images/Screen Shot 2020-09-09 at 3.21.50 PM.png";
 
 import HandTrack from "../images/Screen Shot 2020-11-23 at 3.08.10 PM.png";
 
-import GithubLogo from "../images/GitHub-Mark-Light-120px-plus.png";
-import Arrow from "../images/right-arrow.png";
-
 export default function ProjectsSettings({
   title,
   subtitle,
@@ -25,10 +22,6 @@ export default function ProjectsSettings({
           <h1 className="projectTitle">{title}</h1>
         </div>
 
-        <p className="projectParagraph">
-          Here are a few projects I've worked on.
-        </p>
-
         <div className="projectCards">
           <div className="card">
             <img src={HandTrack} alt="Project" className="projectImage" />
@@ -37,11 +30,16 @@ export default function ProjectsSettings({
                 <h4 className="projectCardTitle">
                   <b>Machine Learning Hand Tracker</b>
                 </h4>
-                <a href="https://github.com/LarrySimiyu/handTracking" className="directLink">
-                  {/* <img src={Arrow} alt="Github Logo" className="githubLogo" /> */}
+                <a
+                  href="https://github.com/LarrySimiyu/handTracking"
+                  className="directLink"
+                >
                   <h6>GitHub</h6>
                 </a>
-                <a href="https://www.loom.com/share/7c6e8373180d4e80a543fe16f0dbbd42" className="directLink">
+                <a
+                  href="https://www.loom.com/share/7c6e8373180d4e80a543fe16f0dbbd42"
+                  className="directLink"
+                >
                   <h6>Video</h6>
                 </a>
               </div>
@@ -58,8 +56,10 @@ export default function ProjectsSettings({
                   <b>Rent-Me</b>
                 </h4>
 
-                <a href="https://github.com/labs13-property-mgr" className="directLink">
-                  {/* <img src={Arrow} alt="Github Logo" className="githubLogo" /> */}
+                <a
+                  href="https://github.com/labs13-property-mgr"
+                  className="directLink"
+                >
                   <h6>GitHub</h6>
                 </a>
                 <a href="https://rentmeapp.netlify.app/" className="directLink">
@@ -94,10 +94,11 @@ export default function ProjectsSettings({
                   <b>Data Vizualization Game</b>
                 </h4>
 
-                <a href="https://github.com/Larrys-Leisurely-Adventure-Game" className="directLink">
-                  {/* <img src={Arrow} alt="Github Logo" className="githubLogo" /> */}
+                <a
+                  href="https://github.com/Larrys-Leisurely-Adventure-Game"
+                  className="directLink"
+                >
                   <h6>GitHub</h6>
-
                 </a>
               </div>
               <p>{adventureProjectText}</p>

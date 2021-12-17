@@ -1,11 +1,9 @@
 import React, { Component } from "react";
-import logo from "../logo.svg";
 import { Link, animateScroll as scroll } from "react-scroll";
 
-import LaptopLogo from "../images/redLaptop.png"
+import LaptopLogo from "../images/redLaptop.png";
 
 export default class Navbar extends Component {
-
   scrollToTop = () => {
     scroll.scrollToTop();
   };
@@ -21,7 +19,6 @@ export default class Navbar extends Component {
             onClick={this.scrollToTop}
           />
           <ul className="nav-items">
-
             <li className="nav-item">
               <Link
                 activeClass="active"
@@ -34,7 +31,7 @@ export default class Navbar extends Component {
                 About
               </Link>
             </li>
-            
+
             <li className="nav-item">
               <Link
                 activeClass="active"
@@ -47,7 +44,7 @@ export default class Navbar extends Component {
                 Projects
               </Link>
             </li>
-            <li className="nav-item " >
+            <li className="nav-item ">
               <Link
                 activeClass="active"
                 to="contact-section"
