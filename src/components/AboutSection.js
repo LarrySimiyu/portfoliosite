@@ -21,14 +21,14 @@ export default function AboutSection({ title, subtitle, id }) {
                 "I love running",
                 1000,
                 `I love coding`,
-                10000,
+                7000,
               ]}
             />
           </h1>
         </div>
         <p className="aboutParagraph">
-          I've worked as a <span>Full Stack Web</span> and{" "}
-          <span>iOS Developer</span>. My days are spent either making{" "}
+          I've worked as a <span>Full Stack Web</span>. My days are spent either
+          making{" "}
           <a href="https://www.youtube.com/channel/UClkieE3BBB4xXoMvBj7_TRw">
             <span className="videoLink">videos</span>
           </a>{" "}
